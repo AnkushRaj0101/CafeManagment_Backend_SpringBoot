@@ -10,7 +10,7 @@ import io.jsonwebtoken.Jwts;
 @Service
 public class JwtUtil {
 
-	public String secret = "rasmi@123";
+	public String secret = "ankushraj0101";
 
 	public String extractUsername(String token) {
 		return extractClaims(token, Claims::getSubject);

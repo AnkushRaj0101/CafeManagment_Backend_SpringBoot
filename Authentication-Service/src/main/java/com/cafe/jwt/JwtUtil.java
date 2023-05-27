@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class JwtUtil {
 
-	public static final String SECRET = "rasmi@123";
+	public static final String SECRET = "ankushraj0101";
 
 	public String generateToken(String username, String role) {
 		Map<String, Object> claims = new HashMap<>();
